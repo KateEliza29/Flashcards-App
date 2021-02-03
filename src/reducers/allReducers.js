@@ -3,6 +3,7 @@ import pageReducer from './pageReducer';
 import qNumberReducer from './qNumberReducer';
 import iconReducer from './iconsReducer';
 import setNumReducer from './setNumReducer'; 
+import techReducer from './techReducer';
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
@@ -10,7 +11,8 @@ const allReducers = combineReducers({
     page: pageReducer, 
     qNumber: qNumberReducer,
     icons: iconReducer,
-    setNum: setNumReducer
+    setNum: setNumReducer,
+    tech: techReducer
 });
 
 export default allReducers;

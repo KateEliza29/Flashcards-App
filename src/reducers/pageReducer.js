@@ -7,6 +7,9 @@ const pageReducer = (state = 'HOME', action) => {
             case 'SET':
                 state = 'SET';
                 return state;
+            case 'TECHSET':
+                state = 'TECHSET';
+                return state;
             default: 
                 return state; 
         }

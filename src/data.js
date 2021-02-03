@@ -1,6 +1,6 @@
 export const data = [
     {
-      setName: "JavaScript Array Methods",
+      setName: "JavaScript Arrays",
       setNumber: 1,
       tech: "JavaScript",
       icon: "fab fa-js-square",
@@ -26,7 +26,7 @@ export const data = [
         ],
     },
     {
-        setName: "PHP",
+        setName: "PHP Variables and Strings",
         setNumber: 2,
         tech: "PHP",
         icon: "fab fa-php",
@@ -50,7 +50,7 @@ export const data = [
     {
         setName: "CSS Animations",
         setNumber: 3,
-        tech: "JavaScript",
+        tech: "CSS",
         icon: "fab fa-css3-alt",
         color: "rgb(1,108,180)",
         questions: [
@@ -76,11 +76,11 @@ export const data = [
         ],
     },
     {
-        setName: "React Basics",
+        setName: "HTML",
         setNumber: 5,
-        tech: "React",
-        icon: "fab fa-react",
-        color: "rgb(97,219,251)",
+        tech: "HTML",
+        icon: "fab fa-html5",
+        color: "rgb(221,75,37)",
         questions: [
             {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
             {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
@@ -88,11 +88,101 @@ export const data = [
         ],
     },
     {
-        setName: "React Basics",
+        setName: "Python",
         setNumber: 6,
-        tech: "React",
-        icon: "fab fa-react",
-        color: "rgb(97,219,251)",
+        tech: "Python",
+        icon: "fab fa-python",
+        color: "rgb(54,108,156)",
+        questions: [
+            {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 3, front: "What's the pooface Ms. Wolf?", back: "Five pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+        ],
+    },
+    {
+        setName: "JavaScript Variables",
+        setNumber: 7,
+        tech: "JavaScript",
+        icon: "fab fa-js-square",
+        color: "rgb(239,216,29)",
+        questions: [
+            {number: 1, front: "True or false- Variables cannot start with a number?", back: "True. They can only start with a letter, $ or _", article1Name: "W3 Schools- Variables", article1URL: "https://www.w3schools.com/js/js_variables.asp", article2Name: "JavaScript Style Guide", article2URL: "https://www.w3schools.com/js/js_conventions.asp"},
+            {number: 2, front: "True or false- You can declare a variable and not assign it a value.", back: "True. This leaves the value as 'undefined'. You can declare a variable with the following syntax:\nlet varName;", article1Name: "JavaScript Variables", article1URL: "https://www.tutorialsteacher.com/javascript/javascript-variable#:~:text=JavaScript%20uses%20reserved%20keyword%20var,it%20or%20before%20using%20it.&text=In%20the%20above%20example%2C%20we,%3A%20one%2C%20two%20and%20three.", article2Name: "JavaScript Intro to Variable Assignment", article2URL: "https://learn.co/lessons/javascript-intro-to-variable-assignment-and-declaration"},
+            {number: 3, front: "What is the difference between 'var', 'let' and 'const'?", back: "'var' is pre-ES6 terminology. This declares any variable.\n'let' assigns a variable that can be changed.\n'const' defines a variable that cannot be changed.", article1Name: "Var, Let and Const- What's the Difference?", article1URL: "https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/", article2Name: "Var vs. Let vs. Const in JavaScript", article2URL: "https://ui.dev/var-let-const/"},
+            {number: 4, front: "What is a 'global variable'?", back: "A variable that is declared outside of a function. It can be used in any function within your page.", article1Name: "W3 Schools- JavaScript Scope", article1URL: "https://www.w3schools.com/js/js_scope.asp", article2Name: "Global Variables in JavaScript Explained", article2URL: "https://www.freecodecamp.org/news/global-variables-in-javascript-explained/"},
+            {number: 5, front: "What is a 'local variable'?", back: "A variable that is declared inside of a function. It can only be used within that function.", article1Name: "Global and Local Variables in JavaScript", article1URL: "https://www.geeksforgeeks.org/global-and-local-variables-in-javascript/", article2Name: "Understanding Javascript Scope", article2URL: "https://scotch.io/tutorials/understanding-scope-in-javascript"},
+            {number: 6, front: "What are the seven data types in JavaScript?", back: "undefined, null, boolean, string, number, object, array.", article1Name: "W3 Schools- Data Types", article1URL: "https://www.w3schools.com/js/js_datatypes.asp", article2Name: "JavaScript Data Types", article2URL: "https://www.tutorialrepublic.com/javascript-tutorial/javascript-data-types.php"},
+            {number: 7, front: "What is an 'undefined' variable?", back: "Where a variable is declared but has not been assigned a value yet.", article1Name: "MDN Web Docs- undefined", article1URL: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined", article2Name: "7 Tips to Handle undefined in JavaScript", article2URL: "https://dmitripavlutin.com/7-tips-to-handle-undefined-in-javascript/"},
+            {number: 8, front: "What is a 'null' variable?", back: "When a variable is assigned 'null', it is to be intentionally left empty.", article1Name: "JavaScript: Null vs. Undefined", article1URL: "https://codeburst.io/javascript-null-vs-undefined-20f955215a2", article2Name: "MDN Web Docs- null", article2URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/null"},
+            {number: 9, front: "What is a 'boolean'?", back: "A boolean is either true or false (with no quotation marks).", article1Name: "MDN Web Docs- Boolean", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/Boolean", article2Name: "JavaScript Boolean vs boolean", article2URL: "https://www.javascripttutorial.net/javascript-boolean/"},
+            {number: 10, front: "What is a 'string'?", back: "A series of characters encased in quotation marks.", article1Name: "MDN Web Docs- String", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/String", article2Name: "W3 Schools- String", article2URL: "https://www.w3schools.com/jsref/jsref_obj_string.asp"},
+            {number: 11, front: "What is a 'number'?", back: "Decimals or integers. There is no distinction between the two, like in some languages.", article1Name: "MDN Web Docs- Number", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/Number", article2Name: "W3 Schools- Numbers", article2URL: "https://www.w3schools.com/js/js_numbers.asp"},
+            {number: 12, front: "What is an 'object'?", back: "A collection of information arranged in key:value pairs, within curly brackets {}.", article1Name: "MDN Web Docs- Object", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/Object", article2Name: "JavaScript.info- Object", article2URL: "https://javascript.info/object"},
+            {number: 13, front: "What is an 'array'?", back: "A collection of data contained within square brackets []", article1Name: "MDN Web Docs- Array", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Global_Objects/Array", article2Name: "JavaScript Arrays- Tips, Tricks and Examples", article2URL: "https://www.codingame.com/playgrounds/6181/javascript-arrays---tips-tricks-and-examples"},
+            {number: 14, front: "How can you check what data type your variable is?", back: "typeof varName", article1Name: "MDN Web Docs", article1URL: "https://developer.mozilla.org/en-us/docs/Web/JavaScript/Reference/Operators/typeof", article2Name: "Understanding Type Checking in JavaScript", article2URL: "https://blog.logrocket.com/javascript-typeof-2511d53a1a62/"},
+            {number: 15, front: "What are falsy values?", back: "A value that is considered false when encountered in a Boolean context.", article1Name: "MDN Web Docs- Falsy", article1URL: "https://developer.mozilla.org/en-US/docs/Glossary/Falsy", article2Name: "Truthy and Falsy: When All is not Equal in JS", article2URL: "https://www.sitepoint.com/javascript-truthy-falsy/"},
+            {number: 16, front: "There are 6 main falsy values in JavaScript. What are they?", back: "undefined, null, NaN, 0, ' ' (empty string), and false", article1Name: "Video: Truthy and Falsey", article1URL: "https://www.youtube.com/watch?v=6hESXoxDtgo&ab_channel=SamBennett", article2Name: "MDN Web Docs- Truthy", article2URL: "https://developer.mozilla.org/en-US/docs/Glossary/Truthy"},
+            {number: 17, front: "JavaScript is a loosely typed language. What does this mean?", back: "It means that you do not need to specify the datatype of your variables.", article1Name: "JavaScript is a Loosely Typed Language", article1URL: "https://medium.com/@xiaoyunyang/javascript-is-a-loosely-typed-language-meaning-you-dont-have-to-specify-what-type-of-information-137408d54fc7", article2Name: "An Introduction to Programming Type Systems", article2URL: "https://www.smashingmagazine.com/2013/04/introduction-to-programming-type-systems/"},
+            {number: 18, front: "What is a 'primitive data type'?", back: "A data type that cannot be broken down into a more simple data type.", article1Name: "A Quick Tour of JavaScript Primitives", article1URL: "https://milkjar.medium.com/a-quick-tour-of-javascript-primitives-894eceee31c2", article2Name: "Understanding JS Primitives", article2URL: "https://codeburst.io/understanding-js-primitives-fafe16468c16"},
+            {number: 19, front: "In JavaScript, what are the primitive data types?", back: "numbers, strings, booleans, undefined and null.", article1Name: "The Secret Life of JavaScript Primitives", article1URL: "https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/", article2Name: "JavaScript Primitives Guide", article2URL: "https://www.vojtechruzicka.com/javascript-primitives/"},
+            {number: 20, front: "True or false- primitive data types are assigned by value, not reference?", back: "True. This means that they are considered to 'contain' the primitive value.", article1Name: "Explaining Value vs. Reference in JS", article1URL: "https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0", article2Name: "JavaScript by Reference vs. By Value", article2URL: "https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value"},
+            {number: 21, front: "True or false- non-primitive data types are assigned by value, not reference?", back: "False. Non-primitives are created in a space in memory. The variable points to that location and doesn't actually 'contain' the value.", article1Name: "Value vs. Reference", article1URL: "https://www.educative.io/courses/step-up-your-js-a-comprehensive-guide-to-intermediate-javascript/7nAZrnYW9rG", article2Name: "Video: Reference vs Value in JavaScript", article2URL: "https://www.youtube.com/watch?v=-hBJz2PPIVE&ab_channel=WebDevSimplified"}
+        ],
+      },
+    {
+        setName: "Java",
+        setNumber: 8,
+        tech: "Java",
+        icon: "fab fa-java",
+        color: "rgb(255,0,2)",
+        questions: [
+            {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 3, front: "What's the pooface Ms. Wolf?", back: "Five pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+        ],
+    },
+    {
+        setName: "C#",
+        setNumber: 9,
+        tech: "C#",
+        icon: "",
+        color: "rgb(160,118,219)",
+        questions: [
+            {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 3, front: "What's the pooface Ms. Wolf?", back: "Five pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+        ],
+    },
+    {
+        setName: "Node.js",
+        setNumber: 10,
+        tech: "Node",
+        icon: "fab fa-node-js",
+        color: "rgb(127,199,40)",
+        questions: [
+            {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 3, front: "What's the pooface Ms. Wolf?", back: "Five pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+        ],
+    },
+    {
+        setName: "Terminal",
+        setNumber: 11,
+        tech: "Terminal",
+        icon: "fas fa-terminal",
+        color: "rgb(255,255,255)",
+        questions: [
+            {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+            {number: 3, front: "What's the pooface Ms. Wolf?", back: "Five pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
+        ],
+    },
+    {
+        setName: "jQuery",
+        setNumber: 12,
+        tech: "JavaScript",
+        icon: "fab fa-js-square",
+        color: "rgb(239,216,29)",
         questions: [
             {number: 1, front: "What's the JS Mr. Wolf?", back: "Three pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
             {number: 2, front: "What's the frontend Mrs. Wolf?", back: "Four pm!", article1Name: "Article Name", article1URL: "https://kateeliza.co.uk", article2Name: "Article2 Name", article2URL: "http://google.com"},
@@ -102,3 +192,9 @@ export const data = [
   ];
 
   //Add in hints
+  /* Empty Datasets */
+  /* 
+              {number: 2, front: "", back: "", article1Name: "", article1URL: "", article2Name: "", article2URL: ""},
+            {number: 3, front: "", back: "", article1Name: "", article1URL: "", article2Name: "", article2URL: ""},
+            {number: 4, front: "", back: "", article1Name: "", article1URL: "", article2Name: "", article2URL: ""},
+            {number: 5, front: "", back: "", article1Name: "", article1URL: "", article2Name: "", article2URL: ""},*/
