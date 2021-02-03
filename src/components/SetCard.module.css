@@ -32,6 +32,8 @@
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
 }
 
 .cardFooter {
