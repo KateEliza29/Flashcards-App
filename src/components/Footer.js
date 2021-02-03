@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Footer.module.css';
 import IconButton from './IconButton';
 import page from '../actions/page';
-import { useSelector, useDispatch } from 'react-redux';
+import {useDispatch } from 'react-redux';
 
 function Footer() {
     {/*const icons = useSelector(state => state.icons);*/}
